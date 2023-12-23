@@ -1,0 +1,26 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: pink;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: purple;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+button {
+    background-color: yellow;
+    color: red;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: orange;
+    color: yellow;
+}
