@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page HTML avec Bouton Redirection</title>
+</head>
+<body>
+
+    <h1></h1>
+
+    <button onclick="redirigerVersAutrePage()">Cliquez-moi</button>
+
+    <script>
+        function redirigerVersAutrePage() {
+            // Rediriger vers une autre page (vous pouvez remplacer "nouvelle_page.html" par l'URL souhaitée)
+            window.location.href = "nouvelle_page.html";
+        }
+    </script>
+
+</body>
+</html>
